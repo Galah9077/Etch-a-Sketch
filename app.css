@@ -1,0 +1,21 @@
+#container {
+    position: center;
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    border: thick black 10px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-basis: auto; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+#container div {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: solid black 1px;
+}
