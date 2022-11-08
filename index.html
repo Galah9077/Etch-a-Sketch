@@ -10,28 +10,29 @@
 </head>
 
 <body>
-    <h1>Etch a Sketch</h1>
-    <select name="" id="numberOfSquares"></select>
-    <button id="blackBtn">Black</button>
-    <button id="randomColor">Random Colors</button>
-    <div id="container">
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
+    <div id="app">
+        <h1>Etch a Sketch</h1>
+
+        <div>
+            <input type="range" id="slider" value="10" min="1" max="100">
+        </div>
+
+        <div id="buttons">
+            <button id="blackBtn">Black</button>
+            <button id="randomColor">Random Colors</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div id="moreButtons">
+            <button id="small">Small</button>
+            <button id="medium">Medium</button>
+            <button id="large">Large</button>
+        </div>
+
+        <div id="container">
+
+        </div>
     </div>
+
 
     <script src="app.js"></script>
 </body>
